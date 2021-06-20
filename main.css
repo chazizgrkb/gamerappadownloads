@@ -64,12 +64,32 @@ font-family: "Segoe UI", "Open Sans", "Noto Sans", "Roboto", "Ubuntu", "verdana"
 
 .btn-primary {
 background-color: #004BFF;
+background-image: linear-gradient(to bottom, #2670BB,#003DCE);
+}
+
+.btn-primary:hover {
+background-color: #004BFF;
 background-image: linear-gradient(to bottom, #007EFF,#004BFF);
 }
 
+.btn-primary:active {
+background-color: #004BFF;
+background-image: linear-gradient(to bottom, #004BFF,#2670BB);
+}
+
 .btn-download {
+    background-color: #008605;
+    background-image: linear-gradient(to bottom, #4FB22F,#008605);
+}
+
+.btn-download:hover {
 background-color: #06990C;
 background-image: linear-gradient(to bottom, #38E103,#06990C);
+}
+
+.btn-download:active {
+    background-color: #008605;
+    background-image: linear-gradient(to bottom, #008605,#38E103);
 }
 
 .alert {
