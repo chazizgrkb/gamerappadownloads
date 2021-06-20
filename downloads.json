@@ -1,0 +1,34 @@
+{
+	"Windows 7": {
+		"Build 420": {
+			"name": "Windows 7 - Build 420",
+			"description": "Extremely funny build haha",
+			"filesize": 329847237234,
+			"image_url": "funny_image.jpg",
+			"download_url": "funny_file.iso"
+		}
+	},
+	"Windows 8": {
+		"Build 6969": {
+			"name": "Windows 8 - Build 6969",
+			"description": "Very funny build haha",
+			"filesize": 329839487234,
+			"image_url": "funny_image.jpg",
+			"download_url": "funny_file.iso"
+		},
+		"Build 6970": {
+			"name": "Windows 8 - Build 6970",
+			"description": "not funny build at all",
+			"filesize": 3298472487234,
+			"image_url": "funny_image.jpg",
+			"download_url": "funny_file.iso"
+		},
+		"Build 6971": {
+			"name": "Windows 8 - Build 6971",
+			"description": "this build made me die from lack of funny",
+			"filesize": 329849487234,
+			"image_url": "not_funny_image.jpg",
+			"download_url": "not_funny_file.iso"
+		}
+	}
+}
