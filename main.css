@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+.navbar {
+    background: rgb(35,156,130);
+    background: linear-gradient(90deg, rgba(35,156,130,1) 0%, rgba(85,121,9,1) 36%, rgba(66,80,6,1) 67%, rgba(47,44,5,1) 100%); 
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+
+.nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+	color: rgba(255, 255, 255, 0.55);
+}
+
+.navbar-brand {
+	color: white;
+}
+
+.btn {
+padding: .375rem .75rem;
+border-radius: .125rem;
+background-color: #636363;
+border: 1px solid transparent;
+color: #fff;
+}
+
+.btn-primary {
+background-color: #225dbd;
+}
+
+.btn-secondary {
+background-color: #8a8a8a;
+}
+
+.btn-danger {
+background-color: #ad0707;
+}
+
+.alert {
+	padding: 1rem;
+	background-color: #d1d1d1;
+	border-radius: .25rem;
+}
+
+.container {
+	width: 95%;
+	padding-right: 0.75rem;
+	padding-left: 0.75rem;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+body {
+font-family: Arial, system-ui, -apple-system, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+background-color: #262626;
+color: white;
+margin: 0;
+}
