@@ -1,3 +1,6 @@
+function playAudio(url) {
+  new Audio(url).play();
+}
 
 fetch("downloads.json").then(data => data.json().then(downloads => {
 	productList = downloads;

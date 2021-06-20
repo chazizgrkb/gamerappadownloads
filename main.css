@@ -1,40 +1,75 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto');
+.col-large {
+ flex: 0 0 auto;
+ width: 66.666667%;
+ /* border: 1px white solid; */
+}
+
+.col-small {
+ flex: 0 0 auto;
+ width: 33.333333%;
+ /* border: 1px white solid; */
+}
+
+.text-end {
+    text-align: right !important;
+}
+
+.row {
+	display: flex;
+}
 
 .navbar {
     background: rgb(35,156,130);
-    background: linear-gradient(90deg, rgba(35,156,130,1) 0%, rgba(85,121,9,1) 36%, rgba(66,80,6,1) 67%, rgba(47,44,5,1) 100%); 
+    background: linear-gradient(90deg, rgb(52,167,29), rgb(19,103,100)); 
 	padding-top: 0.5rem;
 	padding-bottom: 0.5rem;
+}
+
+.navbar-brand {
+	font-family: Arial, system-ui, -apple-system, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	font-size: 25px;
 }
 
 .nav-link {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
-	color: rgba(255, 255, 255, 0.55);
+	color: rgba(255, 255, 255, 0.95);
+	display: inline;
+    vertical-align: middle;
+	text-decoration: none;
 }
 
 .navbar-brand {
 	color: white;
 }
 
+h1.thin {
+  font-weight: 350;
+  font-size: 1.525rem;
+}
+
 .btn {
-padding: .375rem .75rem;
-border-radius: .125rem;
+padding: .375rem 1.75rem;
+border-radius: 7.5px;
 background-color: #636363;
 border: 1px solid transparent;
 color: #fff;
+font-family: "Segoe UI", "Open Sans", "Noto Sans", "Roboto", "Ubuntu", "verdana", "arial", "sans-serif";
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
 }
 
 .btn-primary {
-background-color: #225dbd;
+background-color: #004BFF;
+background-image: linear-gradient(to bottom, #007EFF,#004BFF);
 }
 
-.btn-secondary {
-background-color: #8a8a8a;
-}
-
-.btn-danger {
-background-color: #ad0707;
+.btn-download {
+background-color: #06990C;
+background-image: linear-gradient(to bottom, #38E103,#06990C);
 }
 
 .alert {
@@ -44,16 +79,17 @@ background-color: #ad0707;
 }
 
 .container {
-	width: 95%;
-	padding-right: 0.75rem;
-	padding-left: 0.75rem;
+	width: 98.75%;
 	margin-right: auto;
 	margin-left: auto;
+	margin-top: .25rem;
 }
 
 body {
-font-family: Arial, system-ui, -apple-system, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-background-color: #262626;
+font-family: "Segoe UI", "Open Sans", "Noto Sans", "Roboto", "Ubuntu", "verdana", "arial", "sans-serif";
+background: #262626;
+background-image: linear-gradient(to bottom, #303030,#262626);
 color: white;
 margin: 0;
+background-repeat: repeat-x;
 }
