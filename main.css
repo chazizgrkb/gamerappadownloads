@@ -1,22 +1,24 @@
+
+
 .col-large {
- flex: 0 0 auto;
- width: 64%;
- transition: 1s;
- /* border: 1px white solid; */
+	flex: 0 0 auto;
+	width: 64%;
+	transition: 1s;
+	/* border: 1px white solid; */
 }
 
 .col-gap {
- flex: 0 0 auto;
- width: 1%;
- transition: 1s;
- /* border: 1px white solid; */
+	flex: 0 0 auto;
+	width: 1%;
+	transition: 1s;
+	/* border: 1px white solid; */
 }
 
 .col-small {
- flex: 0 0 auto;
- width: 35%;
- transition: 1s;
- /* border: 1px white solid; */
+	flex: 0 0 auto;
+	width: 35%;
+	transition: 1s;
+	/* border: 1px white solid; */
 }
 
 .border {
@@ -28,8 +30,8 @@
 }
 
 .navbar {
-    background: rgb(35,156,130);
-    background: linear-gradient(90deg, rgb(52,167,29), rgb(19,103,100)); 
+	background: rgb(35, 156, 130);
+	background: linear-gradient(90deg, rgb(52, 167, 29), rgb(19, 103, 100));
 	padding-top: 0.5rem;
 	padding-bottom: 0.5rem;
 }
@@ -41,11 +43,11 @@
 }
 
 .nav-link {
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
+	padding-right: 0.5rem;
+	padding-left: 0.5rem;
 	color: rgba(255, 255, 255, 0.95);
 	display: inline;
-    vertical-align: middle;
+	vertical-align: middle;
 	text-decoration: none;
 }
 
@@ -54,15 +56,15 @@
 }
 
 h1.thin {
-  font-weight: 400;
-  font-size: 1.525rem;
+	font-weight: 400;
+	font-size: 1.525rem;
 }
 
 h1.welcome {
-  font-weight: 500;
-  font-size: 1.525rem;
-  margin: 4.5px 0;
-  transition: 1s;
+	font-weight: 500;
+	font-size: 1.525rem;
+	margin: 4.5px 0;
+	transition: 1s;
 }
 
 .thin-small {
@@ -80,8 +82,8 @@ h1.welcome {
 	line-height: 80%;
 }
 
-.item { 
-	background-image: linear-gradient(to right, #1C8EDC,#1C55AD);
+.item {
+	background-image: linear-gradient(to right, #1C8EDC, #1C55AD);
 	padding: 5px 0 5px 20px;
 	margin-top: 5px;
 	font-size: 20px;
@@ -89,48 +91,48 @@ h1.welcome {
 }
 
 .btn {
-padding: .375rem 1.75rem;
-border-radius: 7.5px;
-background-color: #636363;
-border: 1px solid transparent;
-color: #fff;
-font-family: "Segoe UI", "Open Sans", "Noto Sans", "Roboto", "Ubuntu", "verdana", "arial", "sans-serif";
-transition: padding 1s;
+	padding: .375rem 1.75rem;
+	border-radius: 7.5px;
+	background-color: #636363;
+	border: 1px solid transparent;
+	color: #fff;
+	font-family: "Segoe UI", "Open Sans", "Noto Sans", "Roboto", "Ubuntu", "verdana", "arial", "sans-serif";
+	transition: padding 1s;
 }
 
 .img-fluid {
-    max-width: 100%;
-    height: auto;
+	max-width: 100%;
+	height: auto;
 }
 
 .btn-primary {
-background-color: #004BFF;
-background-image: linear-gradient(to bottom, #2670BB,#003DCE);
+	background-color: #004BFF;
+	background-image: linear-gradient(to bottom, #2670BB, #003DCE);
 }
 
 .btn-primary:hover {
-background-color: #004BFF;
-background-image: linear-gradient(to bottom, #007EFF,#004BFF);
+	background-color: #004BFF;
+	background-image: linear-gradient(to bottom, #007EFF, #004BFF);
 }
 
 .btn-primary:active {
-background-color: #004BFF;
-background-image: linear-gradient(to bottom, #004BFF,#2670BB);
+	background-color: #004BFF;
+	background-image: linear-gradient(to bottom, #004BFF, #2670BB);
 }
 
 .btn-download {
-    background-color: #008605;
-    background-image: linear-gradient(to bottom, #4FB22F,#008605);
+	background-color: #008605;
+	background-image: linear-gradient(to bottom, #4FB22F, #008605);
 }
 
 .btn-download:hover {
-background-color: #06990C;
-background-image: linear-gradient(to bottom, #38E103,#06990C);
+	background-color: #06990C;
+	background-image: linear-gradient(to bottom, #38E103, #06990C);
 }
 
 .btn-download:active {
-    background-color: #008605;
-    background-image: linear-gradient(to bottom, #008605,#38E103);
+	background-color: #008605;
+	background-image: linear-gradient(to bottom, #008605, #38E103);
 }
 
 .alert {
@@ -138,7 +140,6 @@ background-image: linear-gradient(to bottom, #38E103,#06990C);
 	background-color: #d1d1d1;
 	border-radius: .25rem;
 }
-
 
 .container {
 	width: 90%;
@@ -149,39 +150,40 @@ background-image: linear-gradient(to bottom, #38E103,#06990C);
 }
 
 body {
-font-family: "Segoe UI", "Open Sans", "Noto Sans", "Roboto", "Ubuntu", "verdana", "arial", "sans-serif";
-background: #262626;
-color: white;
-margin: 0;
-background-repeat: repeat-x;
+	font-family: "Segoe UI", "Open Sans", "Noto Sans", "Roboto", "Ubuntu", "verdana", "arial", "sans-serif";
+	background: #262626;
+	color: white;
+	margin: 0;
+	background-repeat: repeat-x;
 }
 
 @media screen and (max-width: 1000px) {
 	.container {
-	width: 95%;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: .25rem;
+		width: 95%;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: .25rem;
 	}
 	.btn {
-	padding: .5rem 1.4rem;
+		padding: .5rem 1.4rem;
 	}
 	.navbar-brand {
-	font-size: 16px;
+		font-size: 16px;
 	}
 	.col-large {
-	width: 59.25%;
+		width: 59.25%;
 	}
 	.col-gap {
-	width: 1.50%;
+		width: 1.50%;
 	}
 	.col-small {
-	width: 39.25%;
+		width: 39.25%;
 	}
-	.item { 
-	font-size: 25px;
+	.item {
+		font-size: 25px;
 	}
 	h1.welcome {
-	font-size: 1.25rem;
+		font-size: 1.25rem;
 	}
 }
+
