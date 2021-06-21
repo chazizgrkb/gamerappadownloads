@@ -1,4 +1,6 @@
-
+p {
+	transition: 1s;
+}
 
 .col-large {
 	flex: 0 0 auto;
@@ -60,10 +62,10 @@ h1.thin {
 	font-size: 1.525rem;
 }
 
-h1.welcome {
+.welcome {
 	font-weight: 500;
 	font-size: 1.525rem;
-	margin: 4.5px 0;
+	margin: 0;
 	transition: 1s;
 }
 
@@ -97,7 +99,8 @@ h1.welcome {
 	border: 1px solid transparent;
 	color: #fff;
 	font-family: "Segoe UI", "Open Sans", "Noto Sans", "Roboto", "Ubuntu", "verdana", "arial", "sans-serif";
-	transition: padding 1s;
+	transition: 1s;
+	width: 49%;
 }
 
 .img-fluid {
@@ -141,12 +144,28 @@ h1.welcome {
 	border-radius: .25rem;
 }
 
+.back {
+	background-image: url("back.png");
+	height: 27px;
+	width: 27px;
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 32px;
+	margin-left: auto;
+}
+
 .container {
 	width: 90%;
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: .25rem;
 	transition: 1s;
+}
+
+.container-max {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 body {
@@ -160,12 +179,11 @@ body {
 @media screen and (max-width: 1000px) {
 	.container {
 		width: 95%;
-		margin-right: auto;
-		margin-left: auto;
 		margin-top: .25rem;
 	}
 	.btn {
-		padding: .5rem 1.4rem;
+		padding: .5rem 8.5%;
+		width: 100%;
 	}
 	.navbar-brand {
 		font-size: 16px;
@@ -182,8 +200,45 @@ body {
 	.item {
 		font-size: 25px;
 	}
-	h1.welcome {
+	.welcome {
 		font-size: 1.25rem;
 	}
 }
 
+@media screen and (max-width: 550px) {
+	.container {
+		width: 98.5%;
+		margin-top: .25rem;
+	}
+	.btn {
+		padding: 3.75%;
+		width: 100%;
+	}
+	.navbar-brand {
+		font-size: 15px;
+	}
+	.col-large {
+		width: 64%;
+	}
+	.col-gap {
+		width: 2%;
+	}
+	.col-small {
+		width: 34%;
+	}
+	.item {
+		font-size: 27.5px;
+	}
+	.welcome {
+		font-size: 1.25rem;
+	}
+	.muted {
+	display: none;
+	}
+	h1.thin {
+	display: none;
+	}
+	p {
+	font-size: 0.8rem;
+	}
+}
