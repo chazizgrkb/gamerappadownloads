@@ -1,17 +1,26 @@
 .col-large {
  flex: 0 0 auto;
- width: 66.666667%;
+ width: 64%;
+ transition: 1s;
+ /* border: 1px white solid; */
+}
+
+.col-gap {
+ flex: 0 0 auto;
+ width: 1%;
+ transition: 1s;
  /* border: 1px white solid; */
 }
 
 .col-small {
  flex: 0 0 auto;
- width: 33.333333%;
+ width: 35%;
+ transition: 1s;
  /* border: 1px white solid; */
 }
 
-.text-end {
-    text-align: right !important;
+.border {
+	border-bottom: 1px solid white;
 }
 
 .row {
@@ -28,6 +37,7 @@
 .navbar-brand {
 	font-family: Arial, system-ui, -apple-system, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 	font-size: 25px;
+	transition: 1s;
 }
 
 .nav-link {
@@ -44,8 +54,38 @@
 }
 
 h1.thin {
-  font-weight: 350;
+  font-weight: 400;
   font-size: 1.525rem;
+}
+
+h1.welcome {
+  font-weight: 500;
+  font-size: 1.525rem;
+  margin: 4.5px 0;
+  transition: 1s;
+}
+
+.thin-small {
+	font-size: 1.150rem;
+	font-weight: 350;
+}
+
+.muted {
+	color: rgba(255, 255, 255, 0.75);
+	margin: -5px 0;
+	font-size: 0.825rem;
+}
+
+.info-text {
+	line-height: 80%;
+}
+
+.item { 
+	background-image: linear-gradient(to right, #1C8EDC,#1C55AD);
+	padding: 5px 0 5px 20px;
+	margin-top: 5px;
+	font-size: 20px;
+	transition: font-size 1s;
 }
 
 .btn {
@@ -55,6 +95,7 @@ background-color: #636363;
 border: 1px solid transparent;
 color: #fff;
 font-family: "Segoe UI", "Open Sans", "Noto Sans", "Roboto", "Ubuntu", "verdana", "arial", "sans-serif";
+transition: padding 1s;
 }
 
 .img-fluid {
@@ -98,18 +139,49 @@ background-image: linear-gradient(to bottom, #38E103,#06990C);
 	border-radius: .25rem;
 }
 
+
 .container {
-	width: 98.75%;
+	width: 90%;
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: .25rem;
+	transition: 1s;
 }
 
 body {
 font-family: "Segoe UI", "Open Sans", "Noto Sans", "Roboto", "Ubuntu", "verdana", "arial", "sans-serif";
 background: #262626;
-background-image: linear-gradient(to bottom, #303030,#262626);
 color: white;
 margin: 0;
 background-repeat: repeat-x;
+}
+
+@media screen and (max-width: 1000px) {
+	.container {
+	width: 95%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: .25rem;
+	}
+	.btn {
+	padding: .5rem 1.4rem;
+	}
+	.navbar-brand {
+	font-size: 16px;
+	}
+	.col-large {
+	width: 59.25%;
+	}
+	.col-gap {
+	width: 1.50%;
+	}
+	.col-small {
+	width: 39.25%;
+	}
+	.item { 
+	font-size: 25px;
+	}
+	h1.welcome {
+	font-size: 1.25rem;
+	}
 }

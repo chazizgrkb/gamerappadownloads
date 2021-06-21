@@ -1,3 +1,5 @@
+//do i have to develop this fucking website
+//on google chrome
 function playAudio(url) {
   new Audio(url).play();
 }
